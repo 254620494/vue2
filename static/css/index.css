@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+header {
+  position: relative;
+  width: 100%;
+  background-color: #202329;
+  font-size: 1em;
+  color: red;
+}
+header .inside {
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 1200px;
+}
+header .inside a:link {
+  color: white;
+}
+header .inside a:hover {
+  color: black;
+}
+header .inside .bott {
+  float: right;
+  width: 20%;
+  top: 0;
+}
+header .inside .bott button {
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px white;
+}
+header .ID {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  height: 100px;
+}
+header .ID .img {
+  margin-top: 10px;
+  float: left;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: gainsboro;
+  width: 80px;
+  height: 80px;
+}
+header .ID .Num1 {
+  float: left;
+  padding: 20px;
+}
+header .ID .Num2 {
+  float: right;
+  position: relative;
+  padding: 20px;
+}
+header .ID .Num2 .New-message {
+  text-align: center;
+  padding: 10px 0;
+  color: red;
+}
+content {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 200px;
+  display: block;
+  font-size: 1.2em;
+  z-index: 2;
+}
+content form {
+  width: 100%;
+  margin: 0 auto;
+}
+content .backimg {
+  position: absolute;
+  width: 600px;
+  height: 460px;
+  background-color: gainsboro;
+  top: -10px;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+.Center {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: gainsboro;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+.insidee {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 40vw;
+  height: 40vh;
+  background-image: url(../../static/img/1.jpg);
+  z-index: 3;
+  font-size: 1.2em;
+}
+.insidee .Top .left {
+  float: left;
+  margin-left: 10%;
+  padding: 10px;
+}
+.insidee .Top .right {
+  float: right;
+  margin-right: 10%;
+  padding: 10px;
+  background-color: #d43f3f;
+}
+.insidee .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+.welcomee {
+  padding: 0.5em;
+  font-size: 2em;
+  color: white;
+  float: left;
+  display: block;
+}
+.check {
+  background-color: red;
+}
+.checks {
+  color: lightcoral;
+}
+.error {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+.welcomeAll {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.welcomeAll .right {
+  float: right;
+}
+.welcomeAll .right:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.welcomeAll .right .write {
+  padding: 10px;
+  width: 300px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+.welcomeAll .right .tj {
+  width: 300px;
+}
+.welcomeAll .left {
+  float: left;
+  width: 300px;
+  display: block;
+}
+.welcomeAll .left button {
+  position: relative;
+  top: -6px;
+}
